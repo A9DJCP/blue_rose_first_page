@@ -1,0 +1,9 @@
+dist/
+
+node_modules/
+
+local-*
+*-local.*
+*-local
+
+.env
