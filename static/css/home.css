@@ -74,6 +74,7 @@ body {
 .hero h1 {
   font-size: 3rem;
   background: linear-gradient(90deg, #00f5c4, #00aaff);
+  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
