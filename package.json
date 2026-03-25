@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/A9DJCP/blue_rose_first_page#readme",
   "dependencies": {
+    "ejs": "^5.0.1",
     "express": "^4.22.1"
   }
 }

@@ -4,8 +4,9 @@ import path from "path";
 
 const app = express();
 app.set("view engine", "ejs");
+app.use(express.static("static"));
 app.set("views", path.join(process.cwd(), "views"));
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 25565;
 
 app.use(routes);
 
